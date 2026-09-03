@@ -1,0 +1,266 @@
+{
+  "video_strategy": {
+    "overall_style": "clean modern minimal educational motion graphics",
+    "graphics_density": "controlled medium-high",
+    "primary_position": "upper_right",
+    "secondary_position": "upper_left",
+    "preserve_original_video": true,
+    "preserve_original_audio": true,
+    "avoid_repetition": true,
+    "minimum_graphic_gap": 1.0,
+    "maximum_graphics": 16,
+    "semantic_planning": true,
+    "word_synchronized": true,
+    "face_aware": true,
+    "local_anchor_matching": true,
+    "fallback_concept_detection": true
+  },
+  "graphics": [
+    {
+      "concept": "Highlighting Key Concepts",
+      "reason": "Visualizing academic writing process and emphasizing importance of key concepts",
+      "graphic_type": "headline",
+      "text": "Connecting Ideas",
+      "position": "upper_right",
+      "animation_in": "fade_up",
+      "animation_out": "fade",
+      "anchor_words": [
+        "important",
+        "words"
+      ],
+      "importance": 8,
+      "speech_start": 3.38,
+      "speech_end": 4.59
+    },
+    {
+      "concept": "course.",
+      "reason": "Important concept detected in speech",
+      "graphic_type": "emphasis",
+      "text": "COURSE.",
+      "position": "upper_left",
+      "animation_in": "scale_in",
+      "animation_out": "fade",
+      "anchor_words": [
+        "course."
+      ],
+      "importance": 5,
+      "speech_start": 9.280000000000001,
+      "speech_end": 11.16
+    },
+    {
+      "concept": "Visualizing Academic Writing Progress",
+      "reason": "To help students visualize their writing process and improvement over time.",
+      "graphic_type": "timeline",
+      "text": "From Idea to Published Work",
+      "position": "middle_right",
+      "animation_in": "fade_in",
+      "animation_out": "fade_out",
+      "anchor_words": [
+        "progress",
+        "time"
+      ],
+      "importance": 9,
+      "speech_start": 12.96,
+      "speech_end": 14.16
+    },
+    {
+      "concept": "ideas",
+      "reason": "Important concept detected in speech",
+      "graphic_type": "emphasis",
+      "text": "IDEAS",
+      "position": "upper_right",
+      "animation_in": "scale_in",
+      "animation_out": "fade",
+      "anchor_words": [
+        "ideas"
+      ],
+      "importance": 5,
+      "speech_start": 19.0,
+      "speech_end": 20.94
+    },
+    {
+      "concept": "planning,",
+      "reason": "Important concept detected in speech",
+      "graphic_type": "emphasis",
+      "text": "PLANNING,",
+      "position": "upper_left",
+      "animation_in": "scale_in",
+      "animation_out": "fade",
+      "anchor_words": [
+        "planning,"
+      ],
+      "importance": 5,
+      "speech_start": 22.58,
+      "speech_end": 24.58
+    },
+    {
+      "concept": "evidence",
+      "reason": "Important concept detected in speech",
+      "graphic_type": "emphasis",
+      "text": "EVIDENCE",
+      "position": "upper_right",
+      "animation_in": "scale_in",
+      "animation_out": "fade",
+      "anchor_words": [
+        "evidence"
+      ],
+      "importance": 5,
+      "speech_start": 25.599999999999998,
+      "speech_end": 27.82
+    },
+    {
+      "concept": "audience.",
+      "reason": "Important concept detected in speech",
+      "graphic_type": "emphasis",
+      "text": "AUDIENCE.",
+      "position": "upper_left",
+      "animation_in": "scale_in",
+      "animation_out": "fade",
+      "anchor_words": [
+        "audience."
+      ],
+      "importance": 5,
+      "speech_start": 27.4,
+      "speech_end": 30.22
+    },
+    {
+      "concept": "steps.",
+      "reason": "Important concept detected in speech",
+      "graphic_type": "emphasis",
+      "text": "STEPS.",
+      "position": "upper_right",
+      "animation_in": "scale_in",
+      "animation_out": "fade",
+      "anchor_words": [
+        "steps."
+      ],
+      "importance": 5,
+      "speech_start": 36.720000000000006,
+      "speech_end": 38.7
+    },
+    {
+      "concept": "Writing Process Diagram",
+      "reason": "Visualizes the progression from idea to published work, highlighting key steps in academic writing",
+      "graphic_type": "headline",
+      "text": "Step 1: Brainstorming, Step 2: Research, Step 3: Planning, S",
+      "position": "middle_right",
+      "animation_in": "fade_down",
+      "animation_out": "fade",
+      "anchor_words": [
+        "writing",
+        "process"
+      ],
+      "importance": 9,
+      "speech_start": 38.04,
+      "speech_end": 39.37
+    },
+    {
+      "concept": "Academic Writing Process",
+      "reason": "Visualizing the Writing Process to Improve Understanding",
+      "graphic_type": "headline",
+      "text": "Organize, Research, Write, Edit",
+      "position": "middle_right",
+      "animation_in": "fade_in",
+      "animation_out": "fade",
+      "anchor_words": [
+        "process",
+        "write"
+      ],
+      "importance": 9,
+      "speech_start": 40.84,
+      "speech_end": 42.04
+    },
+    {
+      "concept": "Step Matters",
+      "reason": "Visualizing the importance of brainstorming and step-by-step process in academic writing",
+      "graphic_type": "process",
+      "text": "Step 1: Brainstorming, Step 2: Research, Step 3: Planning",
+      "position": "upper_right",
+      "animation_in": "fade_up",
+      "animation_out": "fade",
+      "anchor_words": [
+        "step",
+        "matters"
+      ],
+      "importance": 9,
+      "speech_start": 43.86,
+      "speech_end": 45.06
+    },
+    {
+      "concept": "brainstorming",
+      "reason": "Important concept detected in speech",
+      "graphic_type": "emphasis",
+      "text": "BRAINSTORMING",
+      "position": "upper_left",
+      "animation_in": "scale_in",
+      "animation_out": "fade",
+      "anchor_words": [
+        "brainstorming"
+      ],
+      "importance": 5,
+      "speech_start": 44.620000000000005,
+      "speech_end": 46.74
+    },
+    {
+      "concept": "sources.",
+      "reason": "Important concept detected in speech",
+      "graphic_type": "emphasis",
+      "text": "SOURCES.",
+      "position": "upper_right",
+      "animation_in": "scale_in",
+      "animation_out": "fade",
+      "anchor_words": [
+        "sources."
+      ],
+      "importance": 5,
+      "speech_start": 50.32,
+      "speech_end": 52.3
+    },
+    {
+      "concept": "direction",
+      "reason": "Important concept detected in speech",
+      "graphic_type": "emphasis",
+      "text": "DIRECTION",
+      "position": "upper_left",
+      "animation_in": "scale_in",
+      "animation_out": "fade",
+      "anchor_words": [
+        "direction"
+      ],
+      "importance": 5,
+      "speech_start": 53.580000000000005,
+      "speech_end": 55.56
+    },
+    {
+      "concept": "organize",
+      "reason": "Important concept detected in speech",
+      "graphic_type": "emphasis",
+      "text": "ORGANIZE",
+      "position": "upper_right",
+      "animation_in": "scale_in",
+      "animation_out": "fade",
+      "anchor_words": [
+        "organize"
+      ],
+      "importance": 5,
+      "speech_start": 55.46,
+      "speech_end": 57.48
+    },
+    {
+      "concept": "Research Foundation",
+      "reason": "Establishing a solid research foundation is crucial for academic success",
+      "graphic_type": "document",
+      "text": "Research Foundation",
+      "position": "middle_right",
+      "animation_in": "slide_in",
+      "animation_out": "slide_out",
+      "anchor_words": [
+        "research",
+        "foundation"
+      ],
+      "importance": 9,
+      "speech_start": 57.82,
+      "speech_end": 59.71
+    }
+  ]
+}

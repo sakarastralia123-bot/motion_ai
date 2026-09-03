@@ -1,0 +1,548 @@
+{
+  "version": 2,
+  "training_videos": 4,
+  "learning_policy": {
+    "slow_update": true,
+    "require_repeated_pattern": true,
+    "new_project_weight": 0.2,
+    "minimum_projects_for_strong_preference": 3
+  },
+  "learned_style": {
+    "canvas": {
+      "orientation": "vertical",
+      "aspect_ratio_mean": 0.5625,
+      "preferred_width": 576,
+      "preferred_height": 1024,
+      "fps_mean": 27.24
+    },
+    "pacing": {
+      "duration_mean_seconds": 20.034,
+      "motion_mean": 20.718,
+      "motion_p50_mean": 8.69,
+      "motion_p90_mean": 64.872,
+      "scene_changes_mean": 7.25
+    },
+    "visual_density": {
+      "brightness_mean": 211.774,
+      "saturation_mean": 46.817,
+      "edge_density_mean": 0.0416,
+      "center_to_border_edge_ratio_mean": 3.802
+    },
+    "color_palette": [
+      {
+        "rgb": [
+          255,
+          112,
+          80
+        ],
+        "support": 23
+      },
+      {
+        "rgb": [
+          251,
+          80,
+          48
+        ],
+        "support": 18
+      },
+      {
+        "rgb": [
+          51,
+          25,
+          68
+        ],
+        "support": 11
+      },
+      {
+        "rgb": [
+          208,
+          48,
+          16
+        ],
+        "support": 6
+      },
+      {
+        "rgb": [
+          240,
+          16,
+          144
+        ],
+        "support": 6
+      },
+      {
+        "rgb": [
+          80,
+          54,
+          80
+        ],
+        "support": 5
+      },
+      {
+        "rgb": [
+          16,
+          144,
+          64
+        ],
+        "support": 2
+      },
+      {
+        "rgb": [
+          112,
+          112,
+          112
+        ],
+        "support": 1
+      }
+    ]
+  },
+  "projects": [
+    {
+      "file": "video 1 (2).mp4",
+      "width": 576,
+      "height": 1024,
+      "fps": 25.0,
+      "duration_seconds": 21.44,
+      "aspect_ratio": 0.5625,
+      "orientation": "vertical",
+      "motion_mean": 41.583,
+      "motion_p50": 16.571,
+      "motion_p90": 156.054,
+      "brightness_mean": 181.354,
+      "saturation_mean": 26.305,
+      "edge_density_mean": 0.0482,
+      "scene_change_count": 11,
+      "center_edge_density": 0.1089,
+      "border_edge_density": 0.0403,
+      "center_brightness": 214.676,
+      "border_brightness": 230.417,
+      "dominant_colors": [
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          208,
+          48,
+          16
+        ],
+        [
+          240,
+          80,
+          48
+        ],
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          208,
+          48,
+          16
+        ],
+        [
+          240,
+          80,
+          48
+        ],
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          208,
+          48,
+          16
+        ],
+        [
+          240,
+          80,
+          48
+        ],
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          240,
+          80,
+          48
+        ],
+        [
+          208,
+          48,
+          16
+        ],
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          208,
+          48,
+          16
+        ],
+        [
+          240,
+          80,
+          48
+        ],
+        [
+          48,
+          48,
+          48
+        ],
+        [
+          80,
+          80,
+          80
+        ],
+        [
+          112,
+          112,
+          112
+        ]
+      ]
+    },
+    {
+      "file": "video 2.mp4",
+      "width": 576,
+      "height": 1024,
+      "fps": 29.97,
+      "duration_seconds": 18.252,
+      "aspect_ratio": 0.5625,
+      "orientation": "vertical",
+      "motion_mean": 17.868,
+      "motion_p50": 7.848,
+      "motion_p90": 49.451,
+      "brightness_mean": 211.546,
+      "saturation_mean": 15.096,
+      "edge_density_mean": 0.0302,
+      "scene_change_count": 9,
+      "center_edge_density": 0.0195,
+      "border_edge_density": 0.0039,
+      "center_brightness": 228.794,
+      "border_brightness": 238.544,
+      "dominant_colors": [
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          240,
+          80,
+          48
+        ],
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          240,
+          80,
+          48
+        ],
+        [
+          208,
+          48,
+          16
+        ],
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          240,
+          80,
+          48
+        ],
+        [
+          80,
+          48,
+          80
+        ],
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          80,
+          48,
+          80
+        ],
+        [
+          48,
+          16,
+          48
+        ],
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          80,
+          48,
+          80
+        ],
+        [
+          240,
+          80,
+          48
+        ],
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          80,
+          48,
+          80
+        ],
+        [
+          240,
+          80,
+          48
+        ],
+        [
+          272,
+          112,
+          80
+        ]
+      ]
+    },
+    {
+      "file": "video 3.mp4",
+      "width": 576,
+      "height": 1024,
+      "fps": 24.0,
+      "duration_seconds": 20.542,
+      "aspect_ratio": 0.5625,
+      "orientation": "vertical",
+      "motion_mean": 14.519,
+      "motion_p50": 4.165,
+      "motion_p90": 32.878,
+      "brightness_mean": 235.337,
+      "saturation_mean": 90.388,
+      "edge_density_mean": 0.032,
+      "scene_change_count": 7,
+      "center_edge_density": 0.0635,
+      "border_edge_density": 0.0118,
+      "center_brightness": 213.191,
+      "border_brightness": 218.536,
+      "dominant_colors": [
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          48,
+          16,
+          80
+        ],
+        [
+          48,
+          48,
+          48
+        ],
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          48,
+          16,
+          80
+        ],
+        [
+          48,
+          48,
+          48
+        ],
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          48,
+          16,
+          80
+        ],
+        [
+          240,
+          80,
+          48
+        ],
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          48,
+          16,
+          80
+        ],
+        [
+          240,
+          80,
+          48
+        ],
+        [
+          48,
+          16,
+          80
+        ],
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          80,
+          16,
+          80
+        ],
+        [
+          48,
+          16,
+          80
+        ],
+        [
+          16,
+          144,
+          48
+        ],
+        [
+          16,
+          144,
+          80
+        ]
+      ]
+    },
+    {
+      "file": "video 4.mp4",
+      "width": 576,
+      "height": 1024,
+      "fps": 30.0,
+      "duration_seconds": 19.9,
+      "aspect_ratio": 0.5625,
+      "orientation": "vertical",
+      "motion_mean": 8.9,
+      "motion_p50": 6.176,
+      "motion_p90": 21.106,
+      "brightness_mean": 218.86,
+      "saturation_mean": 55.481,
+      "edge_density_mean": 0.0559,
+      "scene_change_count": 2,
+      "center_edge_density": 0.091,
+      "border_edge_density": 0.0428,
+      "center_brightness": 194.666,
+      "border_brightness": 206.679,
+      "dominant_colors": [
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          240,
+          16,
+          144
+        ],
+        [
+          272,
+          80,
+          48
+        ],
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          240,
+          16,
+          144
+        ],
+        [
+          272,
+          80,
+          48
+        ],
+        [
+          240,
+          16,
+          144
+        ],
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          272,
+          80,
+          48
+        ],
+        [
+          240,
+          16,
+          144
+        ],
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          272,
+          80,
+          48
+        ],
+        [
+          240,
+          16,
+          144
+        ],
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          272,
+          80,
+          48
+        ],
+        [
+          240,
+          16,
+          144
+        ],
+        [
+          272,
+          112,
+          80
+        ],
+        [
+          272,
+          80,
+          48
+        ]
+      ]
+    }
+  ]
+}
